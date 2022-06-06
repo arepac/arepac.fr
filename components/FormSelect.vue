@@ -2,8 +2,6 @@
 defineProps<{
   name: string
   label: string
-  placeholder?: string
-  error?: string
 }>()
 </script>
 
@@ -20,8 +18,11 @@ defineProps<{
     >
       {{ label }}
     </label>
-    <input
-      type="text"
+    <select
+      id="name"
+      name="name"
+      cursor-pointer
+      appearance-none
       block
       w-full
       px-3
@@ -31,6 +32,7 @@ defineProps<{
       text-gray-700
       bg-white
       bg-clip-padding
+      bg-no-repeat
       b-2
       b-solid
       b-gray-300
@@ -43,8 +45,26 @@ defineProps<{
       focus:b-primary
       focus:outline-none
     >
-    <div text-sm text-red-500 mt-1>
-      {{ error }}
-    </div>
+      <option selected>
+        Open this select menu
+      </option>
+      <option value="1">
+        One
+      </option>
+      <option value="2">
+        Two
+      </option>
+      <option value="3">
+        Three
+      </option>
+    </select>
   </div>
 </template>
+
+<style scoped>
+select {
+  background-image: url("~/assets/svgs/chevron-down.svg");
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+</style>
