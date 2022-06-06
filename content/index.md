@@ -3,7 +3,7 @@ Le prochain congrès aura lieu le samedi 19 novembre 2022 au CH de St Quentin.
 Pour y participer, pensez à remplir le formulaire d'inscription.
 ::
 
-::horizontal-block{img="/content/medicine.svg"}
+::horizontal-block{img="/images/medicine.svg"}
 # Qu'est ce que l'AREPAC ?
 
 Le **Pr M Bertrand** et le **Dr J-Y Ketelers**, cardiologues, ont insufflé en 2000, l’idée de créer une journée de formation annuelle au décours de laquelle des paramédicaux exposent leur activités professionnelles propres à leur service.
@@ -16,7 +16,7 @@ Un groupe de paramédicaux a relevé le défi en créant l’**AREPAC** : **A**s
 L'association **AREPAC** est le trait d’union entre les professionnels de santé issus du secteur public, privé ou libéral des Hauts de France dans le domaine de la cardiologie.
 ::
 
-::vertical-block{img="/content/membres.webp"}
+::vertical-block{img="/images/membres.webp"}
 ## Les membres du bureau
 
 Le Bureau se compose de:

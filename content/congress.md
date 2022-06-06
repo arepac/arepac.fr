@@ -1,4 +1,8 @@
-::horizontal-block{img="/content/presentation.svg"}
+---
+title: AREPAC | Le congrès
+---
+
+::horizontal-block{img="/images/presentation.svg"}
 # Le congrès
 
 Le but est de présenter les différentes prises en charge globales des patients, les connaissances acquises, les expériences vécues sur le terrain et de faire connaître les avancées thérapeutiques aux professionnels présents. 
