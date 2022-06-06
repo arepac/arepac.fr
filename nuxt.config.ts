@@ -16,4 +16,5 @@ export default defineNuxtConfig({
   unocss: {
     preflight: true,
   },
+
 })

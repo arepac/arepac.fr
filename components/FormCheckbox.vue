@@ -2,7 +2,15 @@
 defineProps<{
   name: string
   label: string
+  modelValue: boolean
 }>()
+
+const emit = defineEmits<{
+  (e: 'update:modelValue', value: boolean): void
+}>()
+
+const change = (e: Event) =>
+  emit('update:modelValue', (e.target as HTMLInputElement).checked)
 </script>
 
 <template>
@@ -10,6 +18,7 @@ defineProps<{
     <input
       :id="name"
       :name="name"
+      :checked="modelValue"
       type="checkbox"
       appearance-none
       h-5
@@ -30,8 +39,17 @@ defineProps<{
       checked:bg-primary
       focus:outline-none
       focus:b-primary
+      @change="change"
     >
-    <label :for="name" cursor-pointer inline-block text-gray-700>
+    <label
+      :for="name"
+      cursor-pointer
+      inline-block
+      text-gray-700
+      font-bold
+      uppercase
+      text-sm
+    >
       {{ label }}
     </label>
   </div>

@@ -2,11 +2,20 @@
 defineProps<{
   name: string
   label: string
+  placeholder?: string
+  modelValue: string
 }>()
+
+const emit = defineEmits<{
+  (e: 'update:modelValue', value: string): void
+}>()
+
+const change = (e: Event) =>
+  emit('update:modelValue', (e.target as HTMLSelectElement).value)
 </script>
 
 <template>
-  <div>
+  <div w-full>
     <label
       :for="name"
       inline-block
@@ -21,10 +30,10 @@ defineProps<{
     <select
       id="name"
       name="name"
+      w-full
       cursor-pointer
       appearance-none
       block
-      w-full
       px-3
       py-2
       text-base
@@ -44,19 +53,10 @@ defineProps<{
       focus:bg-white
       focus:b-primary
       focus:outline-none
+      :value="modelValue"
+      @change="change"
     >
-      <option selected>
-        Open this select menu
-      </option>
-      <option value="1">
-        One
-      </option>
-      <option value="2">
-        Two
-      </option>
-      <option value="3">
-        Three
-      </option>
+      <slot />
     </select>
   </div>
 </template>

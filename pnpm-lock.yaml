@@ -8,7 +8,9 @@ specifiers:
   '@nuxt/content': ^2.0.1
   '@unocss/nuxt': ^0.37.4
   '@vueuse/core': ^8.6.0
+  '@vueuse/integrations': ^8.6.0
   '@vueuse/nuxt': ^8.6.0
+  async-validator: ^4.1.1
   eslint: ^8.17.0
   nuxt: ^3.0.0-rc.3
   typescript: ^4.7.3
@@ -21,7 +23,9 @@ devDependencies:
   '@nuxt/content': 2.0.1
   '@unocss/nuxt': 0.37.4
   '@vueuse/core': 8.6.0
+  '@vueuse/integrations': 8.6.0_async-validator@4.1.1
   '@vueuse/nuxt': 8.6.0
+  async-validator: 4.1.1
   eslint: 8.17.0
   nuxt: 3.0.0-rc.3
   typescript: 4.7.3
@@ -1558,6 +1562,50 @@ packages:
       vue: 3.2.36
     dev: true
 
+  /@vueuse/integrations/8.6.0_async-validator@4.1.1:
+    resolution: {integrity: sha512-CTja5TF27KTi7wd9XivWTz3kBX9Z8ujlj+GEjfiHqQ+7OYARSM4mab1hLceMt9XVaGUAwaPeK7Adl9IZuP8Cjw==}
+    peerDependencies:
+      async-validator: '*'
+      axios: '*'
+      change-case: '*'
+      drauu: '*'
+      focus-trap: '*'
+      fuse.js: '*'
+      jwt-decode: '*'
+      nprogress: '*'
+      qrcode: '*'
+      universal-cookie: '*'
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      universal-cookie:
+        optional: true
+    dependencies:
+      '@vueuse/core': 8.6.0
+      '@vueuse/shared': 8.6.0
+      async-validator: 4.1.1
+      vue-demi: 0.13.1
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
   /@vueuse/metadata/8.6.0:
     resolution: {integrity: sha512-F+CKPvaExsm7QgRr8y+ZNJFwXasn89rs5wth/HeX9lJ1q8XEt+HJ16Q5Sxh4rfG5YSKXrStveVge8TKvPjMjFA==}
     dev: true
@@ -1777,6 +1825,10 @@ packages:
   /astral-regex/2.0.0:
     resolution: {integrity: sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==}
     engines: {node: '>=8'}
+    dev: true
+
+  /async-validator/4.1.1:
+    resolution: {integrity: sha512-p4DO/JXwjs8klJyJL8Q2oM4ks5fUTze/h5k10oPPKMiLe1fj3G1QMzPHNmN1Py4ycOk7WlO2DcGXv1qiESJCZA==}
     dev: true
 
   /async/3.2.3:

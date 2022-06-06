@@ -4,11 +4,19 @@ defineProps<{
   label: string
   placeholder?: string
   error?: string
+  modelValue: string
 }>()
+
+const emit = defineEmits<{
+  (e: 'update:modelValue', value: string): void
+}>()
+
+const input = (e: Event) =>
+  emit('update:modelValue', (e.target as HTMLInputElement).value)
 </script>
 
 <template>
-  <div>
+  <div w-full>
     <label
       :for="name"
       inline-block
@@ -22,6 +30,7 @@ defineProps<{
     </label>
     <input
       type="text"
+      :value="modelValue"
       block
       w-full
       px-3
@@ -42,6 +51,7 @@ defineProps<{
       focus:bg-white
       focus:b-primary
       focus:outline-none
+      @input="input"
     >
     <div text-sm text-red-500 mt-1>
       {{ error }}
