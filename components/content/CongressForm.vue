@@ -19,7 +19,6 @@ const formData = $ref({
         {{ "S'inscrire au congrès" }}
       </h2>
     </div>
-
     <p><slot name="description" /></p>
     <form flex flex-col space-y-2>
       <div flex flex-col space-y-2 w-full sm:flex-row sm:space-y-0>
