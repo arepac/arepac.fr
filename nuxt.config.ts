@@ -1,6 +1,11 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    googleServiceAccountEmail: '',
+    googlePrivateKey: '',
+    googleSpreadsheetId: '',
+  },
   modules: [
     '@formkit/nuxt',
     '@nuxt/content',

@@ -6,8 +6,23 @@
   --fk-font-weight-label: 500;
 }
 
+
+
+.formkit-input {
+  background-color: white;
+}
+
+.formkit-label {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
 .formkit-actions {
   text-align: center !important;
+}
+
+.formkit-outer {
+  width: 100% !important;
 }
 
 [data-type=checkbox].formkit-outer {
@@ -31,10 +46,12 @@
   margin-bottom: 0 !important;
 }
 
+[type=submit].formkit-input {
+  font-weight: var(--fk-font-weight-label) !important;
+}
+
 [data-message-type=ui] {
   text-align: center !important;
 }
 
-[type=submit].formkit-input {
-  font-weight: var(--fk-font-weight-label) !important;
-}
+
