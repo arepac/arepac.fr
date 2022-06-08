@@ -1,7 +1,10 @@
 node_modules
+dist
 *.log*
 .nuxt
 .nitro
 .cache
 .output
 .env
+# Local Netlify folder
+.netlify
