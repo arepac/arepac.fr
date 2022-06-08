@@ -19,6 +19,7 @@
     "@vueuse/nuxt": "^8.6.0",
     "eslint": "^8.17.0",
     "nuxt": "^3.0.0-rc.3",
+    "sitemap": "^7.1.1",
     "typescript": "^4.7.3"
   },
   "pnpm": {

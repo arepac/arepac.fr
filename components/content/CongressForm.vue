@@ -25,6 +25,8 @@ const submitHandler = async (data) => {
     v-model="formData"
     type="form"
     submit-label="S'inscrire au congrès"
+    bg-red-100
+    p-6 shadow rounded
     @submit="submitHandler"
   >
     <div flex justify-center mt--2 mb-2>
