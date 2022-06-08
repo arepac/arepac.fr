@@ -3,6 +3,7 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
+  transformerDirectives,
 } from 'unocss'
 
 export default defineConfig({
@@ -10,6 +11,9 @@ export default defineConfig({
     presetUno(),
     presetIcons(),
     presetAttributify(),
+  ],
+  transformers: [
+    transformerDirectives(),
   ],
   theme: {
     colors: {
@@ -29,5 +33,8 @@ export default defineConfig({
           '0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)',
       },
     ],
+  ],
+  shortcuts: [
+    ['w-half', 'w-1/2'],
   ],
 })

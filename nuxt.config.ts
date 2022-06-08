@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
   modules: [
+    '@formkit/nuxt',
     '@nuxt/content',
     '@unocss/nuxt',
     '@vueuse/nuxt',
@@ -9,12 +10,16 @@ export default defineNuxtConfig({
   css: [
     '@fontsource/merriweather',
     '@fontsource/open-sans',
+    '@formkit/themes/genesis',
+    '@/assets/css/formkit-overrides.css',
   ],
   experimental: {
     reactivityTransform: true,
   },
+  formkit: {
+    configFile: './formkit.config.ts',
+  },
   unocss: {
     preflight: true,
   },
-
 })
