@@ -5,6 +5,8 @@ export default defineNuxtConfig({
     googleServiceAccountEmail: '',
     googlePrivateKey: '',
     googleSpreadsheetId: '',
+    gmailUser: '',
+    gmailPw: '',
   },
   modules: [
     '@formkit/nuxt',

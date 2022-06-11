@@ -1,3 +1,4 @@
+import { SMTPClient } from 'emailjs'
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 import type { CongressForm } from '@/types/CongressForm'
 
@@ -10,6 +11,8 @@ export default defineEventHandler(async (event) => {
     !config.googleSpreadsheetId.length
     || !config.googlePrivateKey.length
     || !config.googleServiceAccountEmail.length
+    || !config.gmailUser.length
+    || !config.gmailPw.length
   )
     return createError({ statusCode: 500 })
 
@@ -34,12 +37,29 @@ export default defineEventHandler(async (event) => {
     Prénom: form.firstName,
     Email: form.email,
     Téléphone: form.phone,
+    Fonction: form.job,
     Etablissement: form.facility,
     Service: form.service,
     Repas: form.meal ? 'oui' : 'non',
   })
 
-  return {
-    form,
+  try {
+    const client = new SMTPClient({
+      user: config.gmailUser,
+      password: config.gmailPw,
+      host: 'smtp.gmail.com',
+      port: 465,
+      ssl: true,
+    })
+
+    await client.sendAsync({
+      from: `AREPAC <${config.googleGmailUser}>`,
+      to: `${form.firstName} ${form.lastName} <${form.email}>`,
+      subject: 'Inscription au congrès AREPAC',
+      text: 'Votre inscription au congrès 2022 de l\'AREPAC à bien été prise en compte.',
+    })
+  }
+  catch (error) {
+    console.error(error)
   }
 })
