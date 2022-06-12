@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   modules: [
     '@formkit/nuxt',
     '@nuxt/content',
+    '@unlighthouse/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt',
   ],

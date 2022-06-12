@@ -32,7 +32,7 @@ afterEach(() => { isExpanded = false })
       sm:p-8
     >
       <NuxtLink to="/" items-center flex no-underline hover:text-primary>
-        <img src="~/assets/svgs/arepac.svg" h-10 mr-2>
+        <img src="~/assets/svgs/arepac.svg" h-10 mr-2 alt="">
         <span font-serif text-3xl uppercase>{{ "AREPAC" }}</span>
       </NuxtLink>
       <button
