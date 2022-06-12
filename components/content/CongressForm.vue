@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import type { CongressForm } from '@/types/CongressForm'
+import type { CongressForm } from '~/types/CongressForm'
+
+defineProps<{
+  subtitle?: string
+}>()
 
 let success = $ref(false)
 let error = $ref('')
@@ -15,15 +19,18 @@ const formData = $<CongressForm>({
   meal: false,
 })
 
-const submitHandler = async (data: typeof formData) => {
+const submit = async (data: typeof formData) => {
   error = ''
   return $fetch('/api/congress', { method: 'post', body: data })
     .then(() => {
       success = true
     })
     .catch((e) => {
+      // TODO: remove after Nuxt fix
+      if (e.response?.status === 404)
+        return
       error
-        = e.response.status === 409
+        = e.response?.status === 409
           ? 'Cette adresse e-mail est déja utilisée.'
           : 'Une erreur est survenue.'
     })
@@ -48,7 +55,7 @@ const submitHandler = async (data: typeof formData) => {
     >
       <div text-2xl i-gg-check-o />
       <div font-bold text-center sm:text-left>
-        {{ "Votre inscription a été enregistrée avec succès !" }}
+        <slot name="success" />
       </div>
     </div>
     <FormKit
@@ -60,7 +67,7 @@ const submitHandler = async (data: typeof formData) => {
       p-6
       shadow
       rounded
-      @submit="submitHandler"
+      @submit="submit"
     >
       <div flex justify-center mt--2 mb-2>
         <h2 mx-auto inline-block text-2xl border-b-2 border-secondary mb-4>
@@ -69,8 +76,8 @@ const submitHandler = async (data: typeof formData) => {
       </div>
 
       <div>
-        <p my-4>
-          <slot />
+        <p v-if="subtitle" mt-4 mb-6 italic text-center>
+          {{ subtitle }}
         </p>
         <div flex flex-col sm:flex-row sm:space-x-6>
           <FormKit

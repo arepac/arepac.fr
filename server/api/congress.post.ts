@@ -1,6 +1,6 @@
 import { SMTPClient } from 'emailjs'
 import { GoogleSpreadsheet } from 'google-spreadsheet'
-import type { CongressForm } from '@/types/CongressForm'
+import type { CongressForm } from '~/types/CongressForm'
 
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
@@ -32,18 +32,18 @@ export default defineEventHandler(async (event) => {
   if (exists)
     return createError({ statusCode: 409 })
 
-  await sheet.addRow({
-    Nom: form.lastName,
-    Prénom: form.firstName,
-    Email: form.email,
-    Téléphone: form.phone,
-    Fonction: form.job,
-    Etablissement: form.facility,
-    Service: form.service,
-    Repas: form.meal ? 'oui' : 'non',
-  })
-
   try {
+    await sheet.addRow({
+      Nom: form.lastName,
+      Prénom: form.firstName,
+      Email: form.email,
+      Téléphone: form.phone,
+      Fonction: form.job,
+      Etablissement: form.facility,
+      Service: form.service,
+      Repas: form.meal ? 'oui' : 'non',
+    })
+
     const client = new SMTPClient({
       user: config.gmailUser,
       password: config.gmailPw,

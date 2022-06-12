@@ -10,6 +10,7 @@
 
 .formkit-input {
   background-color: white;
+  line-height: initial;
 }
 
 .formkit-label {

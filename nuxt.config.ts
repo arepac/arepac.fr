@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     googleSpreadsheetId: '',
     gmailUser: '',
     gmailPw: '',
+    sibApiKey: '',
+    sibApiUrl: '',
   },
   modules: [
     '@formkit/nuxt',
