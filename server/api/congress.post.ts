@@ -43,7 +43,12 @@ export default defineEventHandler(async (event) => {
       Service: form.service,
       Repas: form.meal ? 'oui' : 'non',
     })
+  }
+  catch (error) {
+    return createError({ statusCode: 500 })
+  }
 
+  try {
     const client = new SMTPClient({
       user: config.gmailUser,
       password: config.gmailPw,
