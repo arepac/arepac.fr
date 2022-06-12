@@ -26,9 +26,6 @@ const submit = async (data: typeof formData) => {
       success = true
     })
     .catch((e) => {
-      // TODO: remove after Nuxt fix
-      if (e.response?.status === 404)
-        return
       error
         = e.response?.status === 409
           ? 'Cette adresse e-mail est déja utilisée.'

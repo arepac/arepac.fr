@@ -16,10 +16,7 @@ const submit = async (data: typeof formData) => {
     .then(() => {
       success = true
     })
-    .catch((e) => {
-      // TODO: remove after Nuxt fix
-      if (e.response?.status === 404)
-        return
+    .catch(() => {
       error = 'Une erreur est survenue.'
     })
 }

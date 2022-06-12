@@ -62,4 +62,6 @@ export default defineEventHandler(async (event) => {
   catch (error) {
     console.error(error)
   }
+
+  return {}
 })
