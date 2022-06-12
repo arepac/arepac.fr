@@ -5,10 +5,10 @@ defineProps<{
   subtitle?: string
 }>()
 
-let success = $ref(false)
-let error = $ref('')
+const success = ref(false)
+const error = ref('')
 
-const formData = $<CongressForm>({
+const formData = reactive<CongressForm>({
   firstName: '',
   lastName: '',
   email: '',
@@ -20,13 +20,13 @@ const formData = $<CongressForm>({
 })
 
 const submit = async (data: typeof formData) => {
-  error = ''
+  error.value = ''
   return $fetch('/api/congress', { method: 'post', body: data })
     .then(() => {
-      success = true
+      success.value = true
     })
     .catch((e) => {
-      error
+      error.value
         = e.response?.status === 409
           ? 'Cette adresse e-mail est déja utilisée.'
           : 'Une erreur est survenue.'
@@ -38,6 +38,7 @@ const submit = async (data: typeof formData) => {
   <div id="congress-form">
     <div
       v-if="success"
+      data-test-id="congress-form-success"
       bg-green-100
       text-green-600
       flex
@@ -58,6 +59,7 @@ const submit = async (data: typeof formData) => {
     <FormKit
       v-else
       v-model="formData"
+      data-test-id="congress-form"
       type="form"
       submit-label="S'inscrire au congrès"
       bg-red-100
@@ -132,7 +134,16 @@ const submit = async (data: typeof formData) => {
             validation=""
           />
         </div>
-        <div v-if="error" font-bold flex items-center justify-center mb-3 text-red-700>
+        <div
+          v-if="error"
+          data-test-id="congress-form-error"
+          font-bold
+          flex
+          items-center
+          justify-center
+          mb-3
+          text-red-700
+        >
           <span i-gg-danger text-2xl mr-1 sm:inline-block />
           <span>{{ error }}</span>
         </div>

@@ -1,23 +1,23 @@
 <script setup lang="ts">
 import type { NewsletterForm } from '~/types/NewsletterForm'
 
-let success = $ref(false)
-let error = $ref('')
+const success = ref(false)
+const error = ref('')
 
-const formData = $<NewsletterForm>({
+const formData = reactive<NewsletterForm>({
   email: '',
   firstName: '',
   lastName: '',
 })
 
 const submit = async (data: typeof formData) => {
-  error = ''
+  error.value = ''
   return $fetch('/api/newsletter', { method: 'post', body: data })
     .then(() => {
-      success = true
+      success.value = true
     })
     .catch(() => {
-      error = 'Une erreur est survenue.'
+      error.value = 'Une erreur est survenue.'
     })
 }
 </script>
