@@ -18,6 +18,7 @@ defineProps<{
         v-for="{ name, image, url } in partners"
         :key="name"
         :href="url"
+        target="_blank"
         flex
         items-center
         justify-center
