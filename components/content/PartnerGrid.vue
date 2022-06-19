@@ -25,7 +25,7 @@ defineProps<{
         h-full
         p-2
       >
-        <img :src="image">
+        <img :alt="name" :src="image">
       </NuxtLink>
     </div>
   </div>
