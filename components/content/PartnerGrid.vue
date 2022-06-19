@@ -1,0 +1,31 @@
+<script setup lang="ts">
+defineProps<{
+  partners: Array<{
+    name: string
+    url: string
+    image: string
+  }>
+}>()
+</script>
+
+<template>
+  <div>
+    <div text-center>
+      <Markdown :use="$slots.default" />
+    </div>
+    <div gap-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4>
+      <NuxtLink
+        v-for="{ name, image, url } in partners"
+        :key="name"
+        :href="url"
+        flex
+        items-center
+        justify-center
+        h-full
+        p-2
+      >
+        <img :src="image">
+      </NuxtLink>
+    </div>
+  </div>
+</template>

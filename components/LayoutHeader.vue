@@ -1,5 +1,5 @@
 <script setup lang="ts">
-let isExpanded = $ref(false)
+const isExpanded = ref(false)
 const links = [
   {
     route: '/',
@@ -16,7 +16,7 @@ const links = [
 ]
 
 const { afterEach } = useRouter()
-afterEach(() => { isExpanded = false })
+afterEach(() => { isExpanded.value = false })
 </script>
 
 <template>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = [
-  {
-    route: '/contact',
-    label: 'Nous contacter',
-  },
+  // {
+  //   route: '/contact',
+  //   label: 'Nous contacter',
+  // },
   {
     route: '/legal',
     label: 'Mentions légales',

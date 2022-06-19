@@ -23,9 +23,6 @@ export default defineNuxtConfig({
     '@formkit/themes/genesis',
     '@/assets/css/formkit-overrides.css',
   ],
-  experimental: {
-    reactivityTransform: true,
-  },
   formkit: {
     configFile: './formkit.config.ts',
   },
