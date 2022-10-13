@@ -13,7 +13,7 @@ withDefaults(
 <template>
   <section flex flex-col sm:flex-row space-y-2>
     <div text-center sm:mr-4 sm:text-left w="sm:2/3">
-      <Markdown :use="$slots.default" />
+      <ContentSlot :use="$slots.default" />
     </div>
     <img
       v-if="img"

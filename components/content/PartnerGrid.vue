@@ -11,7 +11,7 @@ defineProps<{
 <template>
   <div>
     <div text-center>
-      <Markdown :use="$slots.default" />
+      <ContentSlot :use="$slots.default" />
     </div>
     <div gap-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4>
       <NuxtLink
