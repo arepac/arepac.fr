@@ -130,7 +130,7 @@ const submit = async (data: typeof formData) => {
           <FormKit
             type="checkbox"
             name="meal"
-            label="Je participe au repas"
+            label="Je participe au repas (offert aux participants)"
             validation=""
           />
         </div>
