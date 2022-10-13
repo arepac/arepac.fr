@@ -16,7 +16,6 @@
     "@iconify-json/gg": "^1.1.1",
     "@nuxt/content": "^2.0.1",
     "@types/google-spreadsheet": "^3.2.2",
-    "@unlighthouse/nuxt": "^0.3.29",
     "@unocss/nuxt": "^0.37.4",
     "@vueuse/core": "^8.6.0",
     "@vueuse/nuxt": "^8.6.0",
