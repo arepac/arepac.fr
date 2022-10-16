@@ -7,6 +7,9 @@ Le prochain congrès aura lieu le **samedi 19 novembre 2022** au **CH de St Quen
 Pour y participer, pensez à remplir le formulaire d'inscription.
 ::
 
+::congress-hero
+::
+
 ::horizontal-block
 ---
 img: /images/medicine.svg
