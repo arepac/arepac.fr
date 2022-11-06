@@ -22,13 +22,13 @@ _1, avenue Michel de l'Hospital - 02321 Saint-Quentin_
 Cette journée peut être prise en charge par la formation continue.
 
 - **Traitement médical de l’insuffisance cardiaque** : Dr FERTIN CHU Lille
-- **Infirmier(ère) en Pratique Avancée (IPA)** : Mme BAUCHOT IDE CHU Lille
+- **Infirmier(ère) en Pratique Avancée (IPA)** : Mmes BAUCHOT et CUVELIER IDE CHU Lille
 - **Pace Maker sans sonde** : Mme DUCHATEL IDE CH Lens
 
 _Pause_
 
 - **Endocardite** : Equipe IDE CH Saint Quentin
-- **Foramen Ovale Perméable (FOP)** : Dr HOUEIJEH CHU Lille
+- **Occludeur (fermeture auricule)** : Mme SANDRAPS IDE CHU Lille
 
 _Buffet offert pour clôturer cette journée_
 ::
