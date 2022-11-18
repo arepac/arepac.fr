@@ -52,12 +52,6 @@ partners:
   - name: Abbott
     url: https://www.fr.abbott/
     image: /images/partners/abbott.png
-  - name: Bayer HealthCare
-    url: https://www.bayer.fr/fr/
-    image: /images/partners/bayer.jpg
-  - name: Biosense Webster
-    url: https://www.jnjmedtech.com/fr-FR/companies/nos-activites#jnj-6176ccfe8f1db
-    image: /images/partners/biosense.png
   - name: Boston Scientific
     url: https://www.bostonscientific.com/en-EU/home.html
     image: /images/partners/boston.png
@@ -70,6 +64,8 @@ partners:
   - name: MicroPort
     url: https://www.crm.microport.com/automri/fr/
     image: /images/partners/microport.png
+  - name: Phenix Cardiologie
+    url: https://www.eurasante.com/entreprises/phenix-cardiologie/
   - name: Zoll
     url: https://www.zoll.com/?sc_lang=fr-FR
     image: /images/partners/zoll.png
