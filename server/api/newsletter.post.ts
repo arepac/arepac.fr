@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
   if (!config.sibApiKey.length || !config.sibApiUrl.length)
     return createError({ statusCode: 500 })
 
-  const form = await useBody<NewsletterForm>(event)
+  const form = await readBody<NewsletterForm>(event)
 
   try {
     await $fetch<{ id: number }>(config.sibApiUrl, {

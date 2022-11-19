@@ -5,7 +5,7 @@ import type { CongressForm } from '~/types/CongressForm'
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
 
-  const form = await useBody<CongressForm>(event)
+  const form = await readBody<CongressForm>(event)
 
   if (
     !config.googleSpreadsheetId.length
