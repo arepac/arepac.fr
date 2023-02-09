@@ -2,11 +2,6 @@
 title: AREPAC | Accueil
 ---
 
-::save-the-date
-Le prochain congrès aura lieu le **samedi 19 novembre 2022** au **CH de St Quentin**.
-Pour y participer, pensez à remplir le formulaire d'inscription.
-::
-
 ::horizontal-block
 ---
 img: /images/medicine.svg
