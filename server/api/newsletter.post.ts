@@ -28,5 +28,5 @@ export default defineEventHandler(async (event) => {
     createError({ statusCode: 500 })
   }
 
-  return true
+  return {}
 })

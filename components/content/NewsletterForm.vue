@@ -1,21 +1,25 @@
 <script setup lang="ts">
 import type { NewsletterForm } from '~/types/NewsletterForm'
 
+const success = ref(false)
+const error = ref('')
+
 const formData = reactive<NewsletterForm>({
   email: '',
   firstName: '',
   lastName: '',
 })
 
-const {
-  data: success,
-  error,
-  execute: submit, 
-} = useFetch('/api/newsletter', {
-  method:  'post',
-  body: formData,
-  immediate: false
-})
+const submit = async (data: typeof formData) => {
+  error.value = ''
+  return $fetch('/api/newsletter', { method: 'post', body: data })
+    .then(() => {
+      success.value = true
+    })
+    .catch(() => {
+      error.value = 'Une erreur est survenue.'
+    })
+}
 </script>
 
 <template>
@@ -68,7 +72,7 @@ const {
           type="form"
           submit-label="S'inscrire à la newsletter"
           mt-4
-          @submit="() => submit()"
+          @submit="submit"
         >
           <div flex flex-col sm:flex-row sm:space-x-6>
             <FormKit
@@ -100,7 +104,7 @@ const {
             text-red-700
           >
             <span i-gg-danger text-2xl mr-1 sm:inline-block />
-            <span>{{ error.message }}</span>
+            <span>{{ error }}</span>
           </div>
         </FormKit>
       </div>
