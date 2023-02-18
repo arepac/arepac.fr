@@ -12,6 +12,7 @@ const {
   error,
   execute: submit, 
 } = useFetch('/api/newsletter', {
+  method:  'post',
   body: formData,
   immediate: false
 })
