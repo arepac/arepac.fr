@@ -18,6 +18,8 @@ export default defineConfig({
   theme: {
     colors: {
       primary: '#f51858',
+      hover: '#d10040',
+      active: '#b0002a',
       secondary: '#fb868e',
     },
     fontFamily: {
@@ -36,5 +38,6 @@ export default defineConfig({
   ],
   shortcuts: [
     ['w-half', 'w-1/2'],
+    ['primary-button', 'bg-primary text-white font-bold py-3 px-4 rounded cursor-pointer hover:bg-hover active:bg-active'],
   ],
 })

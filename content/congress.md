@@ -33,10 +33,8 @@ _Pause_
 _Buffet offert pour clôturer cette journée_
 ::
 
-::congress-form
+::congress-button
 ---
-subtitle: Le congrès aura lieu le samedi 19 novembre 2022 au CH de St Quentin.
+enabled: true
 ---
-#success
-Votre inscription au congrès a été enregistrée avec succès. Vous allez recevoir un email de confirmation.
 ::

@@ -16,7 +16,9 @@ const links = [
 ]
 
 const { afterEach } = useRouter()
-afterEach(() => { isExpanded.value = false })
+afterEach(() => {
+  isExpanded.value = false
+})
 </script>
 
 <template>
