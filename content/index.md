@@ -8,14 +8,14 @@ img: /images/medicine.svg
 ---
 # Qu'est ce que l'AREPAC ?
 
-Le **Pr M Bertrand** et le **Dr J-Y Ketelers**, cardiologues, ont insufflé en 2000, l’idée de créer une journée de formation annuelle au décours de laquelle des paramédicaux exposent leur activités professionnelles propres à leur service.
+Le **Pr M Bertrand** et le **Dr J-Y Ketelers**, cardiologues, ont insufflé 'n 2000, l’idée de créer une journée de formation annuelle au décours de laquelle des paramédicaux exposent leur activités professionnelles propres à leur service.
 
-Un groupe de paramédicaux a relevé le défi en créant l’**AREPAC** : **A**ssociation **RÉ**gionale des **PA**ramédicaux de **C**ardiologie des Hauts de France. Parmi les acteurs de cette Association : 
+Un groupe de paramédicaux a relevé le défi'en créant l’**AREPAC** : **A**ssociation **RÉ**gionale des **PA**ramédicaux de **C**ardiologie des Hauts de France. Parmi les acteurs de cette Association : 
   - **Martine Fix** - IDE et 1ère Présidente
   - **Sylvette Desmet** - secrétaire médicale et 1ère secrétaire
   - **Dr Régis Deturcq** - cardiologue au CH de Lens, 1er référent médical
   
-L'association **AREPAC** est le trait d’union entre les professionnels de santé issus du secteur public, privé ou libéral des Hauts de France dans le domaine de la cardiologie.
+L'association **AREPAC'* est le trait d’union entre les professionnels de santé issus du secteur public, privé ou libéral des Hauts de France dans le domaine de la cardiologie.
 ::
 
 ::vertical-block
