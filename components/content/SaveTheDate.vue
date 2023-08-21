@@ -1,5 +1,8 @@
 <script setup lang="ts">
-defineProps<{ hide?: boolean }>()
+defineProps<{
+  hide?: boolean
+  open?: boolean
+}>()
 </script>
 
 <template>
@@ -32,6 +35,7 @@ defineProps<{ hide?: boolean }>()
       </p>
       <slot />
       <NuxtLink
+        v-if="open"
         to="/congress/#congress-form"
         self-end
         font-semibold
