@@ -13,24 +13,27 @@ Le congrès se déroule chaque année **un samedi de novembre de 8h a 13h sur un
 ::
 
 ::text-block
-# Le programme 22e édition
+# Le programme 23e édition
 
-**Samedi 19 novembre 2022 à 8h00 à l'auditorium du Centre Hospitalier de Saint-Quentin**.
+**Samedi 25 novembre 2023 à 8h00 à la FFMS-IFSI de la CATHO**.
 
-_1, avenue Michel de l'Hospital - 02321 Saint-Quentin_
+_2, rue Théodore Monod - 59160 Lomme_
 
 Cette journée peut être prise en charge par la formation continue.
+| Heure | Sujet                                                                           | Intervenant(e)s                                               |
+|-------|---------------------------------------------------------------------------------|---------------------------------------------------------------|
+| 8h    | Accueil et café                                                                 |                                                               |
+| 8h15  | Allocution de bienvenue des membres du bureau                                   |                                                               |
+| 8h30  | ETO: Les bonnes pratiques                                                       | CH Roubaix                                                    |
+| 9h15  | Ablation de FA: différentes approches techniques                                | Equipe du Dr Viart CH St Philibert                            |
+| 10h   | Sternotomie: prise en charge de J0 à J30                                        | Equipe médico-chirurgicale Dr Dubrulle CHU Lille + CH Cambrai |
+|       | Pause-café et visite des stands de laboratoire                                  |                                                               |
+| 10h45 | Réadaptation Cardiaque: traitement et prise en charge en 2023                   | Docteur Marie-Michelle Six Les Hautois Oignies                |
+| 11h30 | Infarctus STMI non STMI                                                         | Equipe du Dr B. Zoghlami CH St Quentin                        |
+| 12h45 | Pace maker / Défibrillateur : la vie domestique et professionnelle au quotidien | Equipe du Dr Marquie CHRU Lille                               |
+|       | Discussion et visite des stands de laboratoires                                 |                                                               |
+| 14h   | Buffet                                                                          |                                                               |
 
-- **Traitement médical de l’insuffisance cardiaque** : Dr FERTIN CHU Lille
-- **Infirmier(ère) en Pratique Avancée (IPA)** : Mmes BAUCHOT et CUVELIER IDE CHU Lille
-- **Pace Maker sans sonde** : Mme DUCHATEL IDE CH Lens
-
-_Pause_
-
-- **Endocardite** : Equipe IDE CH Saint Quentin
-- **Occludeur (fermeture auricule)** : Mme SANDRAPS IDE CHU Lille
-
-_Buffet offert pour clôturer cette journée_
 ::
 
 ::congress-button
