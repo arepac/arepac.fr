@@ -11,6 +11,7 @@ withDefaults(defineProps<{
   <div flex justify-center items-center>
     <a
       v-if="enabled"
+      id="congress-form"
       primary-button
       text-lg
       :href="link"
