@@ -38,6 +38,7 @@ Cette journée peut être prise en charge par la formation continue.
 
 ::congress-button
 ---
-enabled: false
+enabled: true
+link: https://forms.gle/7FDZsBkd3JXxdoGR8
 ---
 ::
