@@ -20,6 +20,9 @@ Le congrès se déroule chaque année **un samedi de novembre de 8h a 13h sur un
 _2, rue Théodore Monod - 59160 Lomme_
 
 Cette journée peut être prise en charge par la formation continue.
+
+**_Attention: les inscriptions sont limitées à 200 places._**
+
 | Heure | Sujet                                                                           | Intervenant(e)s                                               |
 |-------|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | 8h    | Accueil et café                                                                 |                                                               |
