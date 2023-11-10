@@ -66,6 +66,9 @@ partners:
   - name: MicroPort
     url: https://www.crm.microport.com/automri/fr/
     image: /images/partners/microport.png
+  - name: Novartis
+    url: https://www.novartis.com/fr-fr/
+    image: /images/partners/novartis.webp
   - name: Phenix Cardiologie
     url: https://www.eurasante.com/entreprises/phenix-cardiologie/
   - name: Zoll
