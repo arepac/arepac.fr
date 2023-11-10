@@ -1,13 +1,8 @@
 export default defineNuxtConfig({
   devtools: {
-    enabled: true
+    enabled: true,
   },
   runtimeConfig: {
-    googleServiceAccountEmail: '',
-    googlePrivateKey: '',
-    googleSpreadsheetId: '',
-    gmailUser: '',
-    gmailPw: '',
     sibApiKey: '',
     sibApiUrl: '',
   },
