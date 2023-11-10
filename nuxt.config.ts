@@ -12,6 +12,8 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@unocss/nuxt',
     '@vueuse/nuxt',
+    'nuxt-simple-robots',
+    'nuxt-simple-sitemap'
   ],
   css: [
     '@fontsource/merriweather/index.css',
@@ -21,6 +23,12 @@ export default defineNuxtConfig({
   ],
   formkit: {
     configFile: './formkit.config.ts',
+  },
+  site: {
+    url: 'https://arepac.fr',
+  },
+  sitemap: {
+    strictNuxtContentPaths: true,
   },
   unocss: {
     preflight: true,
