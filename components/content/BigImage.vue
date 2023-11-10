@@ -6,7 +6,8 @@ withDefaults(
   }>(),
   {
     alt: '',
-  })
+  },
+)
 </script>
 
 <template>

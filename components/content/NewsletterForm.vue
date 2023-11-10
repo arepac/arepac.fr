@@ -10,7 +10,7 @@ const formData = reactive<NewsletterForm>({
   lastName: '',
 })
 
-const submit = async (data: typeof formData) => {
+async function submit(data: typeof formData) {
   error.value = ''
   return $fetch('/api/newsletter', { method: 'post', body: data })
     .then(() => {

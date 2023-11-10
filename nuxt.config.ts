@@ -14,8 +14,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
   css: [
-    '@fontsource/merriweather',
-    '@fontsource/open-sans',
+    '@fontsource/merriweather/index.css',
+    '@fontsource/open-sans/index.css',
     '@formkit/themes/genesis',
     '@/assets/css/formkit-overrides.css',
   ],
