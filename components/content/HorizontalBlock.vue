@@ -15,7 +15,7 @@ withDefaults(
     <div text-center sm:mr-4 sm:text-left w="sm:2/3">
       <ContentSlot :use="$slots.default" />
     </div>
-    <img
+    <NuxtImg
       v-if="img"
       :src="img"
       :alt="alt"
@@ -24,6 +24,6 @@ withDefaults(
       sm:block
       mt-4
       w="sm:1/3"
-    >
+    />
   </section>
 </template>
