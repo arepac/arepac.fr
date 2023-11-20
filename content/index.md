@@ -4,12 +4,12 @@ title: AREPAC | Accueil
 
 ::save-the-date
 ---
-open: true
+open: false
 ---
 Le prochain congrès aura lieu le **samedi 25 novembre 2023** à la **FFMS-IFSI de la CATHO (Lomme)**.
 Pour y participer, pensez à remplir le formulaire d'inscription.   
 <br/>
-**_Attention: les inscriptions sont limitées à 200 places._**
+**_INSCRIPTIONS TERMINEES._**
 ::
 
 ::horizontal-block
