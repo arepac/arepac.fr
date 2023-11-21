@@ -50,7 +50,7 @@ afterEach(() => {
         <span v-else inline-block i-gg-menu />
       </button>
       <nav
-        :class="isExpanded ? 'sm:display-block' : 'display-none'"
+        :class="isExpanded ? 'sm:block' : 'hidden'"
         w-full
         sm:w-auto
         sm:flex
@@ -60,7 +60,7 @@ afterEach(() => {
           v-for="{ label, route } in links"
           :key="route"
           w-fit
-          display-block
+          block
           font-bold
           text-lg
           mt-4
