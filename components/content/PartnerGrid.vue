@@ -26,7 +26,7 @@ defineProps<{
         p-2
       >
         <NuxtImg v-if="image" :alt="name" :src="image" width="200" />
-        <img v-else :alt="name" />
+        <span v-else>{{ name }}</span>
       </NuxtLink>
     </div>
   </div>
