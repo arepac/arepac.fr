@@ -54,6 +54,9 @@ partners:
   - name: Abbott
     url: https://www.fr.abbott/
     image: /images/partners/abbott.png
+  - name: Biosense
+    url: https://www.jnjmedtech.com/fr-FR/companies/nos-activites
+    image: /images/partners/biosense.jpg
   - name: Boston Scientific
     url: https://www.bostonscientific.com/en-EU/home.html
     image: /images/partners/boston.png
