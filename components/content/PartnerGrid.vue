@@ -25,7 +25,7 @@ defineProps<{
         h-full
         p-2
       >
-        <NuxtImg v-if="image" :alt="name" :src="image" width="200" />
+        <NuxtImg v-if="image" :alt="name" :src="image" sizes="200px" />
         <span v-else>{{ name }}</span>
       </NuxtLink>
     </div>
