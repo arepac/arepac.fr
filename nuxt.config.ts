@@ -22,6 +22,11 @@ export default defineNuxtConfig({
     '@formkit/themes/genesis',
     '@/assets/css/formkit-overrides.css',
   ],
+  app: {
+    head: {
+      titleTemplate: '%pageTitle | AREPAC',
+    },
+  },
   formkit: {
     configFile: './formkit.config.ts',
   },

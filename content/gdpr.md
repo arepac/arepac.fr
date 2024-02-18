@@ -1,5 +1,5 @@
 ---
-title: AREPAC | RGPD
+title: RGPD
 ---
 
 :big-image{img="/images/gdpr.svg"}

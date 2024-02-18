@@ -1,5 +1,5 @@
 ---
-title: AREPAC | Le congrès
+title: Le congrès
 ---
 
 ::horizontal-block{img="/images/presentation.svg"}

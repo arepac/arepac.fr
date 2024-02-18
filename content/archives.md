@@ -1,5 +1,5 @@
 ---
-title: AREPAC | Les archives
+title: Les archives
 ---
 
 # Les archives

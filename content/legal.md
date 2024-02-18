@@ -1,5 +1,5 @@
 ---
-title: AREPAC | Mentions légales
+title: Mentions légales
 ---
 
 :big-image{img="/images/legal.svg"}

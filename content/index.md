@@ -1,5 +1,5 @@
 ---
-title: AREPAC | Accueil
+title: Accueil
 ---
 
 ::save-the-date
