@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@vueuse/nuxt',
     'nuxt-simple-robots',
-    'nuxt-simple-sitemap'
+    'nuxt-simple-sitemap',
   ],
   css: [
     '@fontsource/merriweather/index.css',

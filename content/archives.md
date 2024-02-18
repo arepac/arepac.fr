@@ -2,10 +2,8 @@
 title: AREPAC | Les archives
 ---
 
-::vertical-block{img="/images/construction.svg"}
 # Les archives
 
-**Cette section du site est actuellement en travaux.**
+Retrouves sur cette page les archives (supports) des journées de l'AREPAC.
 
-Vous y retrouverez les supports des exposés de chaque année.
-::
+:archive-list

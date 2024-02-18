@@ -1,5 +1,5 @@
 <template>
-  <h2 inline-block text-2xl border-b-2 border-secondary mb-4>
+  <h2 block text-2xl underline underline-secondary underline-2 mb-4>
     <slot />
   </h2>
 </template>
