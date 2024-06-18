@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url'
+
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
@@ -27,6 +29,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       titleTemplate: '%pageTitle | AREPAC',
+    },
+  },
+  content: {
+    sources: {
+      content:  {
+        driver: 'fs',
+        base: fileURLToPath(new URL('./content', import.meta.url)),
+      },
     },
   },
   formkit: {
