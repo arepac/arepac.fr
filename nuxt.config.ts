@@ -32,6 +32,9 @@ export default defineNuxtConfig({
   formkit: {
     configFile: './formkit.config.ts',
   },
+  site: {
+    url: 'https://arepac.fr'
+  },
   sitemap: {
     strictNuxtContentPaths: true,
   },
