@@ -6,10 +6,10 @@ title: Accueil
 ---
 open: false
 ---
-Le prochain congrès aura lieu le **samedi 25 novembre 2023** à la **FFMS-IFSI de la CATHO (Lomme)**.
+Le prochain congrès aura lieu le **samedi 23 novembre 2024** au **CHU - LILLE - Institut Gernez Rieux (CHU)**.
 Pour y participer, pensez à remplir le formulaire d'inscription.   
-<br/>
-**_INSCRIPTIONS TERMINEES._**
+***
+_Ouverture des inscriptions en septembre._
 ::
 
 ::horizontal-block
