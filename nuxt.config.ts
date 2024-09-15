@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     '@formkit/nuxt',
     '@nuxt/content',
     '@nuxt/image',
-    '@nuxthq/studio',
+    // '@nuxthq/studio',
     '@nuxtjs/sitemap',
     '@unocss/nuxt',
     '@vueuse/nuxt',
