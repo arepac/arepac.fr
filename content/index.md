@@ -7,7 +7,7 @@ title: Accueil
 open: false
 ---
 Le prochain congrès aura lieu le **samedi 23 novembre 2024** au **CHU - LILLE - Institut Gernez Rieux (CHU)**.
-Pour y participer, pensez à remplir le formulaire d'inscription.   
+Pour y participer, pensez à remplir le formulaire d'inscription.
 ***
 _Ouverture des inscriptions en septembre._
 ::
@@ -20,11 +20,11 @@ img: /images/medicine.svg
 
 Le **Pr M Bertrand** et le **Dr J-Y Ketelers**, cardiologues, ont insufflé en 2000, l'idée de créer une journée de formation annuelle au décours de laquelle des paramédicaux exposent leur activités professionnelles propres à leur service.
 
-Un groupe de paramédicaux a relevé le défi en créant l'**AREPAC** : **A**ssociation **RÉ**gionale des **PA**ramédicaux de **C**ardiologie des Hauts de France. Parmi les acteurs de cette Association : 
+Un groupe de paramédicaux a relevé le défi en créant l'**AREPAC** : **A**ssociation **RÉ**gionale des **PA**ramédicaux de **C**ardiologie des Hauts de France. Parmi les acteurs de cette Association :
   - **Martine Fix** - IDE et 1ère Présidente
   - **Sylvette Desmet** - secrétaire médicale et 1ère secrétaire
   - **Dr Régis Deturcq** - cardiologue au CH de Lens, 1er référent médical
-  
+
 L'association **AREPAC** est le trait d'union entre les professionnels de santé issus du secteur public, privé ou libéral des Hauts de France dans le domaine de la cardiologie.
 ::
 
@@ -36,8 +36,8 @@ alt: Photo des membres du bureau
 ## Les membres du bureau
 
 Le Bureau se compose de:
-  - **Mme Catherine Desormeaux** la présidente, cadre supérieure de santé au CHU de Lille
-  - **Mme Myriam Debosque** la vice-présidente, ex-cadre de santé à l'hôpital St Philibert, au CHU de Lille et au CH de Tourcoing
+  - **Mme Myriam Debosque** la présidente, ex-cadre de santé à l'hôpital St Philibert, au CHU de Lille et au CH de Tourcoing
+  - **Mme Catherine Desormeaux** la vice-présidente, cadre supérieure de santé au CHU de Lille
   - **Mme Catherine Béthencourt** la trésorière, IDE à l'hôpital privé Le Bois
   - **Mme Dominique Thomas** la secrétaire, AMA au CHU de Lille
   - **Dr Christelle Marquié** la référente médicale, cardiologue au CHU de Lille
