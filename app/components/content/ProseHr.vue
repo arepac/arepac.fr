@@ -1,3 +1,3 @@
 <template>
-  <hr b-transparent />
+  <hr b-transparent>
 </template>

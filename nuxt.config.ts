@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   },
   content: {
     sources: {
-      content:  {
+      content: {
         driver: 'fs',
         base: fileURLToPath(new URL('./content', import.meta.url)),
       },
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
     configFile: './formkit.config.ts',
   },
   site: {
-    url: 'https://arepac.fr'
+    url: 'https://arepac.fr',
   },
   sitemap: {
     strictNuxtContentPaths: true,
@@ -51,4 +51,5 @@ export default defineNuxtConfig({
   unocss: {
     preflight: true,
   },
+  compatibilityDate: '2024-09-15',
 })

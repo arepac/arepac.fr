@@ -1,5 +1,5 @@
-import { fr } from '@formkit/i18n'
 import type { DefaultConfigOptions } from '@formkit/vue'
+import { fr } from '@formkit/i18n'
 
 const config: DefaultConfigOptions = {
   locales: { fr },
