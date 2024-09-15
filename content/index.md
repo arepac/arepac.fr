@@ -4,12 +4,11 @@ title: Accueil
 
 ::save-the-date
 ---
-open: false
+open: true
 ---
 Le prochain congrès aura lieu le **samedi 23 novembre 2024** au **CHU - LILLE - Institut Gernez Rieux (CHU)**.
 Pour y participer, pensez à remplir le formulaire d'inscription.
-***
-_Ouverture des inscriptions en septembre._
+
 ::
 
 ::horizontal-block
