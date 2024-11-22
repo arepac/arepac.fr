@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  nitro: {
+    preset: 'netlify-edge',
+  },
   runtimeConfig: {
     sibApiKey: '',
     sibApiUrl: '',
@@ -43,6 +46,7 @@ export default defineNuxtConfig({
     configFile: './formkit.config.ts',
   },
   site: {
+    name: 'AREPAC',
     url: 'https://arepac.fr',
   },
   sitemap: {
