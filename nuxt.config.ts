@@ -11,8 +11,7 @@ export default defineNuxtConfig({
     preset: 'netlify-edge',
   },
   runtimeConfig: {
-    sibApiKey: '',
-    sibApiUrl: '',
+    brevoKey: '',
   },
   modules: [
     '@formkit/nuxt',
