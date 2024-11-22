@@ -1,8 +1,6 @@
 [build]
-command = "pnpm run generate"
+command = "pnpm run build"
+publish = "dist"
 
 [build.environment]
-NODE_VERSION = "20"
-
-[functions]
-directory = "functions/"
+NODE_VERSION = "22"
