@@ -73,6 +73,9 @@ partners:
     image: /images/partners/novartis.webp
   - name: Phenix Cardiologie
     url: https://www.eurasante.com/entreprises/phenix-cardiologie/
+  - name: Satelia
+    url: https://www.satelia.eu
+    image: /images/partners/satelia.png
   - name: Zoll
     url: https://www.zoll.com/?sc_lang=fr-FR
     image: /images/partners/zoll.png
