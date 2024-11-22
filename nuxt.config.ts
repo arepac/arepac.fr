@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   nitro: {
-    preset: 'netlify',
+    preset: 'netlify-edge',
   },
   runtimeConfig: {
     sibApiKey: '',
