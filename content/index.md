@@ -5,10 +5,10 @@ title: Accueil
 ::save-the-date
 ---
 open: true
+hide: true
 ---
 Le prochain congrès aura lieu le **samedi 23 novembre 2024** au **CHU - LILLE - Institut Gernez Rieux (CHU)**.
 Pour y participer, pensez à remplir le formulaire d'inscription.
-
 ::
 
 ::horizontal-block
@@ -29,14 +29,13 @@ L'association **AREPAC** est le trait d'union entre les professionnels de santé
 
 ::vertical-block
 ---
-img: /images/membres.webp
+img: /images/membres.jpg
 alt: Photo des membres du bureau
 ---
 ## Les membres du bureau
 
 Le Bureau se compose de:
   - **Mme Myriam Debosque** la présidente, ex-cadre de santé à l'hôpital St Philibert, au CHU de Lille et au CH de Tourcoing
-  - **Mme Catherine Desormeaux** la vice-présidente, cadre supérieure de santé au CHU de Lille
   - **Mme Catherine Béthencourt** la trésorière, IDE à l'hôpital privé Le Bois
   - **Mme Dominique Thomas** la secrétaire, AMA au CHU de Lille
   - **Dr Christelle Marquié** la référente médicale, cardiologue au CHU de Lille
@@ -44,7 +43,7 @@ Le Bureau se compose de:
 Ainsi que différents membres appartenant ou ayant appartenu au domaine de la Cardiologie dans différents établissements de la région.
 
 #caption
-Sur la photo, de gauche à droite: Myriam, Jean-Phi, Fabienne, Catherine D, Lulu, Christelle, Dominique, Catherine B, Florence et Sacha.
+Sur la photo, de gauche à droite: Toria, Alice, Dominique, Lulu, Catherine, Christelle, Gégé, Florence, David, Isabelle, Mélanie et Myriam.
 ::
 
 ::partner-grid
@@ -81,13 +80,4 @@ partners:
     image: /images/partners/zoll.png
 ---
 ## Les partenaires
-::
-
-::newsletter-form
-## La newsletter
-
-_Inscrivez-vous à la newsletter pour recevoir par email des informations relatives à l'AREPAC et au congrès._
-
-#success
-Votre inscription à la neswletter a été enregistrée avec succès.
 ::
